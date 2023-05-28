@@ -1,0 +1,95 @@
+/*Inicio del CSS para el Logo*/
+.navbar-logo{
+    width:80px;
+    height: 80px;
+    display: flex;
+}
+.navbar-logo:hover{
+    cursor: pointer;
+    /*Igual es una ayuda visual el color del border de este*/
+    border: 2px solid blue;
+    border-radius: 5% ;
+}
+/*--------------------------------*/
+/*Inicio del CSS para los nav-item*/
+.nav-item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+} 
+.nav-link:hover{
+    /*Igual es una ayuda visual el color del border de este*/
+    border-bottom: 4px solid purple;
+}
+/*--------------------------------*/
+/*Inicio del CSS para el Header*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    padding: 40px 10px;
+}
+.container-fluid{
+    /*el background-color solo es para identificar todo el header*/
+    background-color: green;
+    /*No hay problema si lo cambias o lo quitas, solo es una ayuda visual*/
+}
+/*Inicio del CSS para el logo del carrito y de perfil*/
+.header_cart-avatar{
+    display: none; /*Esta en none para que desaparezca cuando el cliente aun no se registra o entra en su cuenta*/
+    align-items: center;
+    width: 90px;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+.header_cart{
+    position:relative;
+}
+.header_cart--notification{
+    display: none;
+    width:15px;
+    height: 12px;
+    border-radius: 16px;
+    position: absolute;
+    top:-2px;
+    right: -5px;
+    font-size: 0.6em;
+    text-align: center;
+}
+.header_cart--notification:hover{
+    cursor: pointer;
+}
+.header_icart{
+    width:40px;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+.header_icart:hover{
+    cursor: pointer;
+}
+.header_avatar{
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+.header_avatar:hover{
+    cursor: pointer;
+    /*Igual es una ayuda visual el color del border de este*/
+    border: 2px solid red;
+    border-radius: 50% ;
+}
+/*--------------------------------*/
+
+/*Inicio del CSS de attribution*/
+.attribution{
+    text-align: center;
+    text-decoration: none;
+}
+.attribution a{
+    color: inherit;
+    text-decoration: none;
+}
+/*--------------------------------*/
