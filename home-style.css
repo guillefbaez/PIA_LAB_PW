@@ -1,101 +1,93 @@
-/* Estilos para el contenedor principal de la página de inicio */
 #div-content-pag-inicio {
     background-image: url("/images/wallpaper1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
   
-  /* Estilos para el texto "explora" */
-  #explora {
+#explora {
     text-align: center;
     font-size: 3em;
     font-family: sans-serif;
     color: #000;
     margin-top: 100px;
-  }
-  
-  /* Estilos para las tarjetas */
-  .card {
+}
+
+.card {
     width: 200px;
     height: 300px;
     padding: 10px;
-  }
-  
-  .card img {
+}
+
+.card img {
     max-width: 100%;
     max-height: 100%;
-  }
-  
-  /* Estilos para la atribución */
-  .attribution {
+}
+
+.attribution {
     margin: 20px;
     text-align: center;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     color: white;
-  }
-  
-  .attribution a {
+}
+
+.attribution a {
     text-decoration: none;
     color: white;
-  }
-  
-  .attribution p {
+}
+
+.attribution p {
     color: white;
-  }
-  
-  /* Estilos para el logo de la barra de navegación */
-  .navbar-logo {
+}
+
+.navbar-logo {
     width: 80px;
     height: 80px;
     display: flex;
-  }
-  
-  .navbar-logo:hover {
+}
+
+.navbar-logo:hover {
     cursor: pointer;
     border: 2px solid purple;
     border-radius: 5%;
-  }
-  
-  /* Estilos para los elementos de navegación */
-  .nav-item {
+}
+
+.nav-item {
     list-style: none;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .nav-link:hover {
+}
+
+.nav-link:hover {
     border-bottom: 4px solid purple;
-  }
-  
-  /* Estilos para el encabezado */
-  .header {
+}
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 68px;
     padding: 40px 10px;
-  }
-  
-  .container-fluid {
+}
+
+.container-fluid {
     background-color: aliceblue;
-  }
-  
-  /* Estilos para el carrito y el avatar en el encabezado */
-  .header_cart-avatar {
+}
+
+.header_cart-avatar {
     display: none;
     align-items: center;
     width: 90px;
     padding-right: 40px;
     justify-content: space-between;
-  }
-  
-  .header_cart {
+}
+
+.header_cart {
     position: relative;
-  }
-  
-  .header_cart--notification {
+}
+
+.header_cart--notification {
     display: none;
     width: 15px;
     height: 12px;
@@ -105,32 +97,52 @@
     right: -5px;
     font-size: 0.6em;
     text-align: center;
-  }
-  
-  .header_cart--notification:hover {
+}
+
+.header_cart--notification:hover {
     cursor: pointer;
-  }
-  
-  .header_icart {
+}
+
+.header_icart {
     width: 40px;
     height: 40px;
     justify-content: space-between;
     display: flex;
-  }
-  
-  .header_icart:hover {
+}
+
+.header_icart:hover {
     cursor: pointer;
-  }
-  
-  .header_avatar {
+}
+
+.header_avatar {
     border-radius: 5px;
     height: 40px;
     width: 40px;
     display: flex;
-  }
-  
-  .header_avatar:hover {
+}
+
+.header_avatar:hover {
     cursor: pointer;
     border: 2px solid red;
     border-radius: 50%;
+}
+
+body {
+background-color: #ffffff;
+}
+
+@media (min-width: 992px) {
+
+    header {
+      text-align: center;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    .header_cart-avatar {
+      display: none;
+    }
+  
   }
