@@ -83,7 +83,7 @@
 }
 /*--------------------------------*/
 body{
-  background: url('/images/Wallpaper3.webp');
+  background-image: url('/images/Wallpaper3.webp');
 }
 /*Inicio del CSS para el titulo de la página*/
 .title{
