@@ -83,7 +83,9 @@
 }
 /*--------------------------------*/
 body{
-  background: url('/images/wallpaper4.jpg');
+  background-image: url('/images/wallpaper4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*--------------------------------*/
 /*Inicio del CSS para el titulo de la página*/
