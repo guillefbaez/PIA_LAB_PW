@@ -1,5 +1,176 @@
-nav ul li a.active,
-nav ul li a:hover {
-  color: #fefefe; /* Color resaltado para la opción activa y cuando se pasa el cursor sobre ella */
-  font-weight: bold; /* Estilo de fuente en negrita para la opción activa y cuando se pasa el cursor sobre ella */
+/*Inicio del CSS para el Logo*/
+.navbar-logo{
+  width:80px;
+  height: 80px;
+  display: flex;
 }
+.navbar-logo:hover{
+  cursor: pointer;
+  /*Igual es una ayuda visual el color del border de este*/
+  border: 2px solid blue;
+  border-radius: 5% ;
+}
+/*--------------------------------*/
+/*Inicio del CSS para los nav-item*/
+.nav-item{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+} 
+.nav-link:hover{
+  /*Igual es una ayuda visual el color del border de este*/
+  border-bottom: 4px solid purple;
+}
+/*--------------------------------*/
+/*Inicio del CSS para el Header*/
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  padding: 40px 10px;
+}
+.container-fluid{
+  /*el background-color solo es para identificar todo el header*/
+  background-color: aliceblue;
+  /*No hay problema si lo cambias o lo quitas, solo es una ayuda visual*/
+}
+/*Inicio del CSS para el logo del carrito y de perfil*/
+.header_cart-avatar{
+  display: none; /*Esta en none para que desaparezca cuando el cliente aun no se registra o entra en su cuenta*/
+  align-items: center;
+  width: 90px;
+  padding-right: 40px;
+  justify-content: space-between;
+}
+.header_cart{
+  position:relative;
+}
+.header_cart--notification{
+  display: none;
+  width:15px;
+  height: 12px;
+  border-radius: 16px;
+  position: absolute;
+  top:-2px;
+  right: -5px;
+  font-size: 0.6em;
+  text-align: center;
+}
+.header_cart--notification:hover{
+  cursor: pointer;
+}
+.header_icart{
+  width:40px;
+  height: 40px;
+  justify-content: space-between;
+  display: flex;
+}
+.header_icart:hover{
+  cursor: pointer;
+}
+.header_avatar{
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+.header_avatar:hover{
+  cursor: pointer;
+  /*Igual es una ayuda visual el color del border de este*/
+  border: 2px solid red;
+  border-radius: 50% ;
+}
+/*--------------------------------*/
+body{
+  background: url('/images/wallpaper4.jpg');
+}
+/*--------------------------------*/
+/*Inicio del CSS para el titulo de la página*/
+.title{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;  
+  color: white;
+  background-color: black;
+}
+/*--------------------------------*/
+/*Inicio del CSS del Contact*/
+.container{
+  background-color: rgba(35, 4, 45, 0.5);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.container h2, p{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: white;
+}
+.container h2{
+  font-size: 50px;
+}
+.container p{
+  font-size: 30px;
+}
+/*--------------------------------*/
+/*Inicio del CSS de Social-Icons*/
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 30px;
+  text-decoration: none;
+  color: #000;
+}
+.social-icons img {
+  width: 150px;
+  height: 150px;
+}
+.social-icons span {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.WhatsappName{
+  color:green;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.FacebookName{
+  color:blue;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.InstagramName{
+  color:rgb(148, 1, 148);
+  font-family: 'Anton', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.TwitterName{
+  color:rgb(24, 136, 196);
+  font-family: 'Anton', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+/*--------------------------------*/
+/*Inicio del CSS de attribution*/
+.attribution{
+  text-align: center;
+  text-decoration: none;
+  background-color:rgba(0, 0, 0, 0.5) ;
+  border-radius: 10px;
+  color:white;
+}
+.attribution a{
+  text-decoration: none;
+  color:white;
+}
+.attribution p{
+  color: white;
+}
+/*--------------------------------*/
