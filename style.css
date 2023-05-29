@@ -82,7 +82,13 @@
     border-radius: 50% ;
 }
 /*--------------------------------*/
-
+/*Inicio del CSS del body*/
+body{
+    background-image: url(images/wallpaper1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*--------------------------------*/
 /*Inicio del CSS de attribution*/
 .attribution{
     text-align: center;
