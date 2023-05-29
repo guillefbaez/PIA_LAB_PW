@@ -1,4 +1,4 @@
-#body-inicio{
+#div-content-pag-inicio{
     background-image: url("/images/wallpaper1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,4 +10,10 @@
     font-family: sans-serif;
     color: #000;
     margin-top: 100px;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    padding: 10px;
 }
