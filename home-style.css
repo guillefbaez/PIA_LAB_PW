@@ -1,130 +1,136 @@
-#div-content-pag-inicio{
+/* Estilos para el contenedor principal de la página de inicio */
+#div-content-pag-inicio {
     background-image: url("/images/wallpaper1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#explora{
+  }
+  
+  /* Estilos para el texto "explora" */
+  #explora {
     text-align: center;
     font-size: 3em;
     font-family: sans-serif;
     color: #000;
     margin-top: 100px;
-}
-
-.card text-bg-warning mb-3{
+  }
+  
+  /* Estilos para las tarjetas */
+  .card {
     width: 200px;
     height: 300px;
     padding: 10px;
-}
-
-.card img{
-    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
-    max-height: 100%; /* Establece la altura máxima al 100% del contenedor */
-}
-
-.attribution{
+  }
+  
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  /* Estilos para la atribución */
+  .attribution {
     margin: 20px;
-}
-
-/*Inicio del CSS para el Logo*/
-.navbar-logo{
-    width:80px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .attribution a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .attribution p {
+    color: white;
+  }
+  
+  /* Estilos para el logo de la barra de navegación */
+  .navbar-logo {
+    width: 80px;
     height: 80px;
     display: flex;
-}
-.navbar-logo:hover{
+  }
+  
+  .navbar-logo:hover {
     cursor: pointer;
-    /*Igual es una ayuda visual el color del border de este*/
     border: 2px solid purple;
-    border-radius: 5% ;
-}
-/*--------------------------------*/
-/*Inicio del CSS para los nav-item*/
-.nav-item{
+    border-radius: 5%;
+  }
+  
+  /* Estilos para los elementos de navegación */
+  .nav-item {
     list-style: none;
     display: flex;
     justify-content: space-between;
-} 
-.nav-link:hover{
-    /*Igual es una ayuda visual el color del border de este*/
+  }
+  
+  .nav-link:hover {
     border-bottom: 4px solid purple;
-}
-/*--------------------------------*/
-/*Inicio del CSS para el Header*/
-.header{
+  }
+  
+  /* Estilos para el encabezado */
+  .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 68px;
     padding: 40px 10px;
-}
-.container-fluid{
-    /*el background-color solo es para identificar todo el header*/
+  }
+  
+  .container-fluid {
     background-color: aliceblue;
-    /*No hay problema si lo cambias o lo quitas, solo es una ayuda visual*/
-}
-/*Inicio del CSS para el logo del carrito y de perfil*/
-.header_cart-avatar{
-    display: none; /*Esta en none para que desaparezca cuando el cliente aun no se registra o entra en su cuenta*/
+  }
+  
+  /* Estilos para el carrito y el avatar en el encabezado */
+  .header_cart-avatar {
+    display: none;
     align-items: center;
     width: 90px;
     padding-right: 40px;
     justify-content: space-between;
-}
-.header_cart{
-    position:relative;
-}
-.header_cart--notification{
+  }
+  
+  .header_cart {
+    position: relative;
+  }
+  
+  .header_cart--notification {
     display: none;
-    width:15px;
+    width: 15px;
     height: 12px;
     border-radius: 16px;
     position: absolute;
-    top:-2px;
+    top: -2px;
     right: -5px;
     font-size: 0.6em;
     text-align: center;
-}
-.header_cart--notification:hover{
+  }
+  
+  .header_cart--notification:hover {
     cursor: pointer;
-}
-.header_icart{
-    width:40px;
+  }
+  
+  .header_icart {
+    width: 40px;
     height: 40px;
     justify-content: space-between;
     display: flex;
-}
-.header_icart:hover{
+  }
+  
+  .header_icart:hover {
     cursor: pointer;
-}
-.header_avatar{
+  }
+  
+  .header_avatar {
     border-radius: 5px;
     height: 40px;
     width: 40px;
     display: flex;
-}
-.header_avatar:hover{
+  }
+  
+  .header_avatar:hover {
     cursor: pointer;
-    /*Igual es una ayuda visual el color del border de este*/
     border: 2px solid red;
-    border-radius: 50% ;
-}
-/*--------------------------------*/
-
-/*Inicio del CSS de attribution*/
-.attribution{
-    text-align: center;
-    text-decoration: none;
-    background-color:rgba(0, 0, 0, 0.5) ;
-    border-radius: 10px;
-    color:white;
-}
-.attribution a{
-    text-decoration: none;
-    color:white;
-}
-.attribution p{
-    color: white;
-}
-/*--------------------------------*/
+    border-radius: 50%;
+  }
