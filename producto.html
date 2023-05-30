@@ -55,74 +55,50 @@
 
     <div class="container-title">Nombre del modelo</div>
 
-		<main>
-			<div class="container-img">
-				<img
-					src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-					alt="imagen-producto"
-				/>
+	<main>
+		<div class="container-img">
+		  <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="imagen-producto">
+		</div>
+		<div class="container-info-product">
+		  <div class="container-price"></div>
+		  <div class="container-details-product">
+			<div class="form-group">
+			  <label for="size">Talla</label>
+			  <select name="size" id="size">
+				<option disabled selected value="">Escoge una opción</option>
+				<option value="40">40</option>
+				<option value="42">42</option>
+				<option value="43">43</option>
+				<option value="44">44</option>
+			  </select>
 			</div>
-			<class class="container-info-product">
-				<div class="container-price">
-				</div>
-
-				<div class="container-details-product">
-					<div class="form-group">
-						<label for="size">Talla</label>
-						<select name="size" id="size">
-							<option disabled selected value="">
-								Escoge una opción
-							</option>
-							<option value="40">40</option>
-							<option value="42">42</option>
-							<option value="43">43</option>
-							<option value="44">44</option>
-						</select>
-					</div>
-					<button class="btnclean">Limpiar</button>
-				</div>
-
-				<div class="container-add-cart">
-					<div class="container-quantity">
-						<input
-							type="number"
-							placeholder="1"
-							value="1"
-							min="1"
-							class="input-quantity"
-						/>
-						<div class="btn-increment-decrement">
-							<i class="fa-solid fa-chevron-up" id="increment"></i>
-							<i class="fa-solid fa-chevron-down" id="decrement"></i>
-						</div>
-					</div>
-					<button class="btn-add-to-cart">
-						<i class="fa-solid fa-plus"></i>
-						Añadir al carrito
-					</button>
-				</div>
-
-				<div class="container-description">
-					<div class="title-description">
-						<h4>Descripción</h4>
-						<i class="fa-solid fa-chevron-down"></i>
-					</div>
-					<div class="text-description">
-						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing
-							elit. Laboriosam iure provident atque voluptatibus
-							reiciendis quae rerum, maxime placeat enim cupiditate
-							voluptatum, temporibus quis iusto. Enim eum qui delectus
-							deleniti similique? Lorem, ipsum dolor sit amet
-							consectetur adipisicing elit. Sint autem magni earum est
-							dolorem saepe perferendis repellat ipsam laudantium cum
-							assumenda quidem quam, vero similique? Iusto officiis
-							quod blanditiis iste?
-						</p>
-					</div>
-				</div>
-            </class>
-        </main>
+			<button type="reset" value="reset" class="btnclean">Limpiar</button>
+		  </div>
+		  <div class="container-add-cart">
+			<div class="container-quantity">
+			  <input type="number" placeholder="1" value="1" min="1" class="input-quantity">
+			  <div class="btn-increment-decrement">
+				<i class="fa-solid fa-chevron-up" id="increment"></i>
+				<i class="fa-solid fa-chevron-down" id="decrement"></i>
+			  </div>
+			</div>
+			<button class="btn-add-to-cart">
+			  <i class="fa-solid fa-plus"></i>
+			  Añadir al carrito
+			</button>
+		  </div>
+		  <div class="container-description">
+			<div class="title-description">
+			  <h4>Descripción</h4>
+			  <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="text-description">
+			  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam iure provident atque voluptatibus reiciendis quae rerum, maxime placeat enim cupiditate voluptatum, temporibus quis iusto. Enim eum qui delectus deleniti similique? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint autem magni earum est dolorem saepe perferendis repellat ipsam laudantium cum assumenda quidem quam, vero similique? Iusto officiis quod blanditiis iste?</p>
+			</div>
+		  </div>
+		</div>
+	  </main>
+	  
         <footer class="attribution">
             Repositorio en <a href="https://github.com/guillefbaez/PIA_PWeb-LAB.git" target="_blank"><strong>GitHub</strong></a><br>
             Realizado por: <a href="https://github.com/guillefbaez" target="_blank"><strong>Guillermo Vladimir Flores Báez</strong> con matricula: <strong>2127967 (ITS)</strong></a><br>
