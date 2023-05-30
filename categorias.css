@@ -11,35 +11,29 @@
     border-radius: 5%;
   }
 
-  #h1-hombres{
-    margin: 10px;
-    font-size: 24px;
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+ /* Estilos para el título "Hombres" */
+#h1-hombres,
+#h1-mujeres,
+#h1-niños {
+  margin: 80px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
-  #h1-mujeres{
-    margin: 10px;
-    font-size: 24px;
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-
-  #h1-niños{
-    margin: 10px;
-    font-size: 24px;
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+/* Estilos para las imágenes */
+#img-hombres,
+#img-mujeres,
+#img-niños {
+  border-radius: 50%;
+  width: 200px; /* Ajusta el tamaño según tus necesidades */
+  height: 200px; /* Ajusta el tamaño según tus necesidades */
+  object-fit: cover; /* Evita que la imagen se distorsione */
+  object-position: center; /* Centra la imagen */
+}
   
   /* Estilos para los nav-items */
   .navbar-nav {
