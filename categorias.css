@@ -10,6 +10,36 @@
     border: 2px solid purple;
     border-radius: 5%;
   }
+
+  #h1-hombres{
+    margin: 10px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #h1-mujeres{
+    margin: 10px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #h1-niños{
+    margin: 10px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
   
   /* Estilos para los nav-items */
   .navbar-nav {
