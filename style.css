@@ -37,7 +37,7 @@
 }
 /*Inicio del CSS para el logo del carrito y de perfil*/
 .header_cart-avatar{
-    display: none; /*Esta en none para que desaparezca cuando el cliente aun no se registra o entra en su cuenta*/
+     /*Esta en none para que desaparezca cuando el cliente aun no se registra o entra en su cuenta*/
     align-items: center;
     width: 90px;
     padding-right: 40px;
