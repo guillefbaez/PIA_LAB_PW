@@ -33,12 +33,12 @@
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                   </li>
-                  <!--<li class="nav-item">-->
-                    <botton type="button active" class="nav-link" aria-current="page" href="Login.html"><strong>Iniciar sesión</strong></botton>
-                  <!--</li>-->
-                  <!--<li class="nav-item">-->
-                    <button type="button" class="nav-link" href="#">Registrarse</button>
-                  <!--</li>-->
+                  <li class="nav-item">
+                    <botton type="button active" class="nav-link" aria-current="page" href="Login.html"><strong>Login</strong></botton>
+                  </li>
+                  <li class="nav-item">
+                    <button type="button" class="nav-link" href="SignUp.html">Sign Up</button>
+                  </li>
                 </ul>
               </div>
               <!-- Inicio de la parte del logo del carrito y de perfil-->
@@ -61,31 +61,18 @@
       <!-- Imagen de perfil -->
       <div class="profile-icon"></div>
     </div>
-  
+
     <!-- Formulario -->
-    <form action="procesar_registro" method="POST">
-      <label for="first-name"></label>
-      <input type="text" id="first-name" name="first-name" placeholder="Introduce First Name" required><br>
-  
-      <label for="last-name"></label>
-      <input type="text" id="last-name" name="last-name" placeholder="Introduce Last Name" required><br>
-  
+    <form action="confirmar_registro" method="POST">
       <label for="email"></label>
       <input type="email" id="email" name="email" placeholder="Introduce tu correo electrónico" required><br>
-  
-      <label for="confirm-email"></label>
-      <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirma tu correo electrónico" required><br>
-  
       <label for="password"></label>
       <input type="password" id="password" name="password" placeholder="Introduce tu password" required><br>
-  
-      <label for="confirm-password"></label>
-      <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirma tu password" required><br>
-  
       <input type="submit" value="Siguiente"><br>
-  
-      <p>¿Ya eres miembro?<a class="signup" href="#"><strong> Sign Up </strong></a></p>
+
+      <p>¿Aún no eres miembro?<a class="signup" href="SignUp.html"><strong> Sign Up </strong></a></p>
     </form>
+    
     <footer class="attribution">
       Repositorio en <a href="https://github.com/guillefbaez/PIA_PWeb-LAB.git" target="_blank"><strong>GitHub</strong></a><br>
       Realizado por: <a href="https://github.com/guillefbaez" target="_blank"><strong>Guillermo Vladimir Flores Báez</strong> con matricula: <strong>2127967 (ITS)</strong></a><br>
