@@ -102,9 +102,9 @@ body{
     height: 100px;
     background-image: url("images/perfil-user.jpg");
     background-size: cover;
-    margin-left:595px;
+    margin: 0 auto;
     margin-top: 50px;
-    }
+}
 /*--------------------------------*/
 /*Inicio del CSS del formulario*/
 form {
@@ -113,7 +113,7 @@ form {
     align-items: center;
     width: 300px;
     padding: 20px;
-    margin-left: 490px;
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 50px;
     border-radius: 5px;
