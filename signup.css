@@ -1,0 +1,180 @@
+/*Inicio del CSS para el Logo*/
+.navbar-logo{
+    width:80px;
+    height: 80px;
+    display: flex;
+}
+.navbar-logo:hover{
+    cursor: pointer;
+    /*Igual es una ayuda visual el color del border de este*/
+    border: 2px solid purple;
+    border-radius: 5% ;
+}
+/*--------------------------------*/
+/*Inicio del CSS para los nav-item*/
+.nav-item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+} 
+.nav-link:hover{
+    /*Igual es una ayuda visual el color del border de este*/
+    border-bottom: 4px solid purple;
+}
+/*--------------------------------*/
+/*Inicio del CSS para el Header*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    padding: 40px 10px;
+}
+.container-fluid{
+    /*el background-color solo es para identificar todo el header*/
+    background-color: aliceblue;
+    /*No hay problema si lo cambias o lo quitas, solo es una ayuda visual*/
+}
+/*Inicio del CSS para el logo del carrito y de perfil*/
+.header_cart-avatar{
+    display: none; /*Esta en none para que desaparezca cuando el cliente aun no se registra o entra en su cuenta*/
+    align-items: center;
+    width: 90px;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+.header_cart{
+    position:relative;
+}
+.header_cart--notification{
+    display: none;
+    width:15px;
+    height: 12px;
+    border-radius: 16px;
+    position: absolute;
+    top:-2px;
+    right: -5px;
+    font-size: 0.6em;
+    text-align: center;
+}
+.header_cart--notification:hover{
+    cursor: pointer;
+}
+.header_icart{
+    width:40px;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+.header_icart:hover{
+    cursor: pointer;
+}
+.header_avatar{
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+.header_avatar:hover{
+    cursor: pointer;
+    /*Igual es una ayuda visual el color del border de este*/
+    border: 2px solid red;
+    border-radius: 50% ;
+}
+/*--------------------------------*/
+/*Inicio del CSS del body*/
+body{
+    background-image: url(images/wallpaper2.jpg);
+    background-size:contain;
+}
+/*--------------------------------*/
+/*Inicio del CSS para el titulo de la página*/
+.title{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;  
+    color: white;
+    background-color: black;
+}
+/*--------------------------------*/
+/*Inicio del CSS de icon perfil*/
+.profile-icon {
+    width: 100px;
+    height: 100px;
+    background-image: url("images/perfil-user.jpg");
+    background-size: cover;
+    margin-left:595px;
+    margin-top: 50px;
+    }
+/*--------------------------------*/
+/*Inicio del CSS del formulario*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    margin-left: 490px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: black;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    }
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(135, 16, 135);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(191, 7, 191);
+}
+.login{
+    text-decoration: none;
+    color: purple;
+}
+.login:hover{
+    color: rgb(191, 7, 191);
+}
+p{
+    color:white;
+}
+/*--------------------------------*/
+/*Inicio del CSS de attribution*/
+.attribution{
+    text-align: center;
+    text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    border-radius: 10px;
+    color:white;
+}
+.attribution a{
+    text-decoration: none;
+    color:white;
+}
+.attribution p{
+    color: white;
+}
+/*--------------------------------*/
