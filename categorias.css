@@ -24,15 +24,37 @@
   font-weight: bold;
 }
 
+#contenedor-img-hombres {
+  display: flex; /* Utilizamos flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 40vh; /* Ajustar la altura del contenedor */
+}
+
+#contenedor-img-mujeres {
+  display: flex; /* Utilizamos flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 40vh; /* Ajustar la altura del contenedor */
+}
+
+#contenedor-img-niños {
+  display: flex; /* Utilizamos flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 40vh; /* Ajustar la altura del contenedor */
+}
+
 /* Estilos para las imágenes */
 #img-hombres,
 #img-mujeres,
 #img-niños {
   border-radius: 50%;
-  width: 200px; /* Ajusta el tamaño según tus necesidades */
-  height: 200px; /* Ajusta el tamaño según tus necesidades */
-  object-fit: cover; /* Evita que la imagen se distorsione */
-  object-position: center; /* Centra la imagen */
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  object-position: center; 
+  margin: 10px;
 }
   
   /* Estilos para los nav-items */
