@@ -26,6 +26,22 @@
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
+#div-content-pag-inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  max-width: 100%;
+  margin: 50px;
+}
+
+.card-body {
+  text-align: center;
+}
+
 /* Redimensionar las imágenes dentro del carrusel */
 .carousel-item img {
   max-width: 100%;
