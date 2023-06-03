@@ -163,19 +163,31 @@ p{
     color:white;
 }
 /*--------------------------------*/
-/*Inicio del CSS de attribution*/
-.attribution{
-    text-align: center;
-    text-decoration: none;
-    background-color:rgba(0, 0, 0, 0.5) ;
-    border-radius: 10px;
-    color:white;
-}
-.attribution a{
-    text-decoration: none;
-    color:white;
-}
-.attribution p{
-    color: white;
-}
-/*--------------------------------*/
+/* Estilos para el footer */
+.attribution {
+	background-color: #f8f8f8;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+  }
+  
+  .attribution a {
+	color: #333;
+	text-decoration: none;
+  }
+  
+  .attribution a:hover {
+	text-decoration: underline;
+  }
+  
+  .attribution p {
+	margin-bottom: 10px;
+  }
+  
+  .attribution strong {
+	font-weight: bold;
+  }
+  
+  .attribution .group-info {
+	font-style: italic;
+  }
