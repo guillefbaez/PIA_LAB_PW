@@ -33,12 +33,9 @@
 	padding: 10px;
   }
   
-  /* Estilos para el logo del carrito y de perfil */
   .header_cart-avatar {
+	display: flex;
 	align-items: center;
-	width: 90px;
-	padding-right: 40px;
-	justify-content: space-between;
   }
   
   .header_cart {
@@ -46,46 +43,32 @@
   }
   
   .header_cart--notification {
-	display: none;
-	width: 15px;
-	height: 12px;
-	border-radius: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: absolute;
-	top: -2px;
-	right: -5px;
-	font-size: 0.6em;
-	text-align: center;
-  }
-  
-  .header_cart--notification:hover {
-	cursor: pointer;
+	top: -10px;
+	right: -10px;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 50%;
   }
   
   .header_icart {
 	width: 40px;
 	height: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  }
-  
-  .header_icart:hover {
-	cursor: pointer;
   }
   
   .header_avatar {
-	border-radius: 50%;
-	height: 40px;
 	width: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	height: 40px;
+	border-radius: 50%;
   }
   
-  .header_avatar:hover {
-	cursor: pointer;
-	border: 2px solid red;
-  }
 
   /* Estilos para el footer */
 .attribution {
