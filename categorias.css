@@ -4,7 +4,7 @@
     height: 80px;
     display: flex;
   }
-  
+
   .navbar-logo:hover {
     cursor: pointer;
     border: 2px solid purple;
@@ -142,6 +142,15 @@
 	text-align: center;
 	font-size: 14px;
   }
+
+  .title{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;  
+    color: white;
+    background-color: black;
+    margin-top: 16px;
+  }
   
   .attribution a {
 	color: #333;
@@ -184,6 +193,8 @@
   }
 
   .container-fluid{
-    background-color: aliceblue;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
   }
   

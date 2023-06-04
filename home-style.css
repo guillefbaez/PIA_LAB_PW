@@ -6,7 +6,13 @@
   background-size: cover;
 }
 
-
+.title{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;  
+  color: white;
+  background-color: black;
+}
 
 #explora {
   font-size: 24px;
