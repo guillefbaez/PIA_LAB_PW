@@ -1,0 +1,100 @@
+/* Estilos para el logo */
+.navbar-logo {
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .navbar-logo:hover {
+	cursor: pointer;
+	border: 2px solid purple;
+	border-radius: 5%;
+  }
+  
+  /* Estilos para los nav-items */
+  .nav-item {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .nav-link:hover {
+	border-bottom: 4px solid purple;
+  }
+  
+  /* Estilos para el header */
+  .header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 68px;
+	padding: 10px;
+  }
+  
+  .header_cart-avatar {
+	display: flex;
+	align-items: center;
+  }
+  
+  .header_cart {
+	position: relative;
+  }
+  
+  .header_cart--notification {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 50%;
+  }
+  
+  .header_icart {
+	width: 40px;
+	height: 40px;
+  }
+  
+  .header_avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+  }
+  
+
+  /* Estilos para el footer */
+.attribution {
+	background-color: #f8f8f8;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+  }
+  
+  .attribution a {
+	color: #333;
+	text-decoration: none;
+  }
+  
+  .attribution a:hover {
+	text-decoration: underline;
+  }
+  
+  .attribution p {
+	margin-bottom: 10px;
+  }
+  
+  .attribution strong {
+	font-weight: bold;
+  }
+  
+  .attribution .group-info {
+	font-style: italic;
+  }
