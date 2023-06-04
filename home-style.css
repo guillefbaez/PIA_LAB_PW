@@ -22,7 +22,7 @@
   width: 800px;
   height: 450px;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* Estilos para el footer */
@@ -31,6 +31,7 @@
 	padding: 20px;
 	text-align: center;
 	font-size: 14px;
+  margin-top: 30px;
   }
   
   .attribution a {
@@ -74,10 +75,9 @@
 
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   height: 68px;
-  padding: 40px 10px;
+  padding: 30px 0 40px 0;
 }
 
 .container-fluid {
@@ -120,6 +120,7 @@ header{
 
 .item{
   border: 15px;
+  background-color: goldenrod;
 }
 
 .item:hover{
@@ -148,11 +149,15 @@ header{
   cursor: pointer;
 }
 
+.info-product button:hover{
+  color: goldenrod;
+}
+
 .item img{
   width: 100%;
   height: 300px;
   object-fit: cover;
-  border-radius: 15px 15px 0 0;
+  border-radius: 40px 40px 0 0;
   transition: all .5s;
 }
 
@@ -162,4 +167,14 @@ header{
 
 .item:hover img{
   transform: scale(1.2);
+}
+
+.icon-cart{
+  width: 40px;
+  height: 40px;
+}
+
+.icon-profile{
+  width: 40px;
+  height: 40px;
 }
