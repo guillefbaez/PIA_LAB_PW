@@ -65,12 +65,12 @@
 
 .navbar-logo:hover {
   cursor: pointer;
-  border: 2px solid purple;
+  border: 2px solid goldenrod;
   border-radius: 5%;
 }
 
 .nav-link:hover {
-  border-bottom: 4px solid purple;
+  border-bottom: 4px solid goldenrod;
 }
 
 .header {

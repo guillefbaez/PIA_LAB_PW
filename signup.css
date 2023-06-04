@@ -7,7 +7,7 @@
 .navbar-logo:hover{
     cursor: pointer;
     /*Igual es una ayuda visual el color del border de este*/
-    border: 2px solid purple;
+    border: 2px solid goldenrod;
     border-radius: 5% ;
 }
 /*--------------------------------*/
@@ -19,7 +19,7 @@
 } 
 .nav-link:hover{
     /*Igual es una ayuda visual el color del border de este*/
-    border-bottom: 4px solid purple;
+    border-bottom: 4px solid goldenrod;
 }
 /*--------------------------------*/
 /*Inicio del CSS para el Header*/
