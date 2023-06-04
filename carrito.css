@@ -1,109 +1,26 @@
-/* Estilos para el Logo */
-.navbar-logo {
-    width: 80px;
-    height: 80px;
-    display: flex;
-  }
+*::after,
+*::before,
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .navbar-logo:hover {
-    cursor: pointer;
-    border: 2px solid goldenrod;
-    border-radius: 5%;
-  }
+.title{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;  
+  color: white;
+  background-color: black;
+}
 
-   /* Estilos para los nav-items */
-   .navbar-nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .nav-link {
-    color: #000;
-    text-decoration: none;
-    padding: 10px;
-  }
-  
-  .nav-link:hover {
-    border-bottom: 4px solid goldenrod;
-  }
-  
-  /* Estilos para el Header */
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 68px;
-    padding: 40px 10px;
-    background-color: aliceblue;
-  }
-  
-  .header_cart-avatar {
-    display: none;
-    align-items: center;
-    width: 90px;
-    padding-right: 40px;
-    justify-content: space-between;
-  }
-  
-  .header_cart {
-    position: relative;
-  }
-  
-  .header_cart--notification {
-    display: none;
-    width: 15px;
-    height: 12px;
-    border-radius: 50%;
-    position: absolute;
-    top: -2px;
-    right: -5px;
-    font-size: 0.6em;
-    text-align: center;
-  }
-  
-  .header_cart--notification:hover {
-    cursor: pointer;
-  }
-  
-  .header_icart {
-    width: 40px;
-    height: 40px;
-    justify-content: space-between;
-    display: flex;
-  }
-  
-  .header_icart:hover {
-    cursor: pointer;
-  }
-  
-  .header_avatar {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    display: flex;
-  }
-  
-  .header_avatar:hover {
-    cursor: pointer;
-    border: 2px solid red;
-    border-radius: 50%;
-  }
-  
-  /* Estilos para el footer */
+/* Estilos para el footer */
 .attribution {
 	background-color: #f8f8f8;
 	padding: 20px;
 	text-align: center;
 	font-size: 14px;
-  }
-
-  .title{
-    text-align: center;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Kumbh Sans', sans-serif;  
-    color: white;
-    background-color: black;
-    margin-top: 16px;
+  margin-top: 30px;
   }
   
   .attribution a {
@@ -126,28 +43,111 @@
   .attribution .group-info {
 	font-style: italic;
   }
-  
-  /* Estilos responsivos */
-  @media only screen and (max-width: 768px) {
-    .navbar-logo {
-      width: 60px;
-      height: 60px;
-    }
-  
-    .header_cart-avatar {
-      display: flex;
-      width: auto;
-      padding-right: 20px;
-    }
-  
-    .header_avatar {
-      height: 30px;
-      width: 30px;
-    }
-  }
 
-  .container-fluid{
-    background-color: rgba(0, 0, 0, 0);
-    margin: 0;
+.navbar-logo {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-logo:hover {
+  cursor: pointer;
+  border: 2px solid goldenrod;
+  border-radius: 5%;
+}
+
+.nav-link:hover {
+  border-bottom: 4px solid goldenrod;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+  padding: 30px 0 40px 0;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  font-family: 'Lato';
+  color: #333;
+}
+
+@media (min-width: 992px) {
+  header {
+    text-align: center;
+  }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
     padding: 0;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el carrito de compras */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item .item-details {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .cart-item .item-details p {
+    margin: 0;
+  }
+  
+  .cart-item .item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item .item-actions button {
+    margin-left: 5px;
   }
