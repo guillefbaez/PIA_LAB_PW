@@ -189,7 +189,7 @@
   }
 
   .btn-clean:hover{
-	color: red;
+	color: #ffc700;
   }
 
   .container-add-cart{
@@ -237,7 +237,7 @@
   }
 
   .btn-add-to-cart:hover{
-	color: yellow;
+	color: #ffc700;
   }
 
   .btn-increment-decrement{
@@ -255,11 +255,11 @@
   }
 
   .fa-chevron-down:hover{
-	color: blue;
+	color: #ffc700;
   }
 
   .fa-chevron-up:hover{
-	color: blue;
+	color: #ffc700;
   }
 
   .hidden{
@@ -313,7 +313,7 @@
   }
 
   .container-buttons-social a:hover{
-	color: yellow;
+	color: #ffc700;
   }
 
   .container-buttons-social{

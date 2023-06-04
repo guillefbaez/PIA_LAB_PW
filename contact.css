@@ -109,7 +109,7 @@ body{
   text-align: center;
   font-family: 'Anton', sans-serif;
   font-family: 'Kumbh Sans', sans-serif;
-  color: white;
+  color: #ffc700;
 }
 .container h2{
   font-size: 50px;
@@ -162,7 +162,7 @@ body{
 /*--------------------------------*/
 /* Estilos para el footer */
 .attribution {
-	background-color: #f8f8f8;
+	background-color: lightgray;
 	padding: 20px;
 	text-align: center;
 	font-size: 14px;
